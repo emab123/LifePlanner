@@ -1,6 +1,6 @@
-# Goal & Action Manager
+# Life Planner
 
-Goal & Action Manager is a Python-based application that helps you manage your projects, goals, and actions. It provides a graphical user interface (GUI) to add, edit, and delete projects, goals, and actions. The application also supports dark mode and allows you to generate weekly summary graphs for your projects.
+Life Planner is a Python-based application that helps you manage your projects, goals, and actions. It provides a graphical user interface (GUI) to add, edit, and delete projects, goals, and actions. The application also supports dark mode and allows you to generate weekly summary graphs for your projects.
 
 ## Features
 
@@ -14,8 +14,8 @@ Goal & Action Manager is a Python-based application that helps you manage your p
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/goal-action-manager.git
-    cd goal-action-manager
+    git clone https://github.com/yourusername/life-planner.git
+    cd life-planner
     ```
 
 2. **Create a virtual environment**:
@@ -37,7 +37,7 @@ Goal & Action Manager is a Python-based application that helps you manage your p
 ## Project Structure
 
 ```
-goal-action-manager/
+life-planner/
 ├── .gitignore
 ├── main.py
 ├── pages/
