@@ -10,6 +10,14 @@ Life Planner is a Python-based application that helps you manage your projects, 
 - **Weekly Summary Graph**: Generate and display a stacked bar graph showing the weekly time requirements for a project.
 - **Preferences**: Customize the default date format and toggle dark mode.
 
+## Why Life Planner?
+
+Life Planner helps students and programmers manage their time effectively by:
+- Breaking down long-term goals into manageable weekly actions
+- Visualizing time commitments with stacked bar graphs
+- Balancing multiple projects and goals simultaneously
+- Tracking progress over academic terms or project timelines
+
 ## Installation
 
 1. **Clone the repository**:
@@ -92,6 +100,28 @@ Within a project, you can manage goals and actions:
 ### Weekly Summary Graph
 
 Generate a stacked bar graph showing the weekly time requirements for a project. The x-axis represents the week number, and the y-axis represents the hours per week.
+
+## Developer Guide
+
+### Architecture
+The application follows a modular architecture:
+- `main.py`: Application entry point and core functionality
+- `pages/`: UI components for different views
+- `utils/`: Helper functions and theme management
+
+### Creating Extensions
+You can extend Life Planner by:
+1. Adding new visualization types in `pages/graph_page.py`
+2. Creating custom importers for different data formats
+3. Implementing additional statistics and analytics
+4. Adding new theme options
+
+### Example: Creating a Custom Graph
+```python
+class CustomGraph(GraphPage):
+    def plot_graph(self):
+        # Your custom visualization code here
+        pass
 
 ## Contributing
 
