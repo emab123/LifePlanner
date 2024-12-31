@@ -21,6 +21,10 @@ class App(tk.Tk):
         self.default_date_format = "YYYY-MM-DD"
         self.dark_mode = True
 
+        # Ensure projects directory exists
+        if not os.path.exists("projects"):
+            os.makedirs("projects")
+
         # Apply theme
         sv_ttk.set_theme("dark")
 
