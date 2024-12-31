@@ -122,6 +122,7 @@ class CustomGraph(GraphPage):
     def plot_graph(self):
         # Your custom visualization code here
         pass
+```
 
 ## Contributing
 
